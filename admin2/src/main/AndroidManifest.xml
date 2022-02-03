@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.admin2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PRAFUL">
+        <activity android:name=".Activities.SelectShop"/>
+        <activity android:name=".Activities.ThanksActivity" />
+        <activity android:name=".Activities.Orderhistory"
+            android:parentActivityName=".Activities.MainActivity"/>
+        <activity android:name=".Activities.CashOnDelivery"
+            android:parentActivityName=".Activities.CartActivity"/>
+        <activity android:name=".Activities.ForgotPassword" />
+        <activity android:name=".Activities.NewProductsShowAll" />
+        <activity android:name=".Activities.CatShowAllActivity" />
+        <activity android:name=".Activities.AdressActivity" />
+        <activity android:name=".Activities.CartActivity"
+            android:parentActivityName=".Activities.MainActivity"/>
+        <activity android:name=".Activities.ShowAllActivity"
+            android:parentActivityName=".Activities.MainActivity"/>
+        <activity android:name=".Activities.DetailedActivity"
+            android:parentActivityName=".Activities.ShowAllActivity"/>
+        <activity android:name=".Activities.RegistrationActivity" />
+        <activity android:name=".Activities.loginActivity" />
+        <activity android:name=".Activities.Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.PRAFUL.NoActionBar" />
+
+        <service android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

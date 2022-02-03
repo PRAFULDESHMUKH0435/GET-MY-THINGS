@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile"/>
+
+
+        <item
+            android:id="@+id/nav_myOrders"
+            android:icon="@drawable/cart_icon"
+            android:title="My Order History"/>
+
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_baseline_add_business_24"
+            android:title="Our Shops In Your Locality"/>
+
+
+        <item
+            android:id="@+id/nav_connect_us"
+            android:icon="@drawable/ic_baseline_contactless_24"
+            android:title="Connect Us On Social Media"/>
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_baseline_call_24"
+            android:title="Contact Us" />
+
+    </group>
+</menu>

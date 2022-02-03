@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRAFUL.iml" filepath="$PROJECT_DIR$/.idea/modules/PRAFUL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/PRAFUL.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/PRAFUL.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.iml" filepath="$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adminapp/PRAFUL.adminapp.iml" filepath="$PROJECT_DIR$/.idea/modules/adminapp/PRAFUL.adminapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/teal_700</item>
+    </style>
+
+<!--    <style name="mytoast">-->
+<!--        <item name="stTextBold">true</item>-->
+<!--        <item name="stTextColor">#fff</item>-->
+<!--        <item name="stFont">@font/audiowide</item>-->
+<!--        <item name="stTextSize">14sp</item>-->
+<!--        <item name="stColorBackground">#F44336</item>-->
+<!--        <item name="stSolidBackground">true</item>-->
+<!--        <item name="android:background">@drawable/edit_text_bg</item>-->
+<!--        <item name="stStrokeWidth">3dp</item>-->
+<!--        <item name="stStrokeColor">#8BC34A</item>-->
+<!--        <item name="stIconStart">@drawable/cart_icon</item>-->
+<!--        <item name="stLength">LONG</item> LONG or SHORT-->
+<!--        <item name="stGravity">center</item> top or center-->
+<!--        <item name="stRadius">5dp</item>-->
+<!--    </style>-->
+
+
+
+<!--    <style name="NeedHelp">-->
+<!--        <item name="stTextBold">true</item>-->
+<!--        <item name="stTextColor">#fff</item>-->
+<!--        <item name="stTextSize">14sp</item>-->
+<!--        <item name="stColorBackground">#4CAF50</item>-->
+<!--        <item name="stSolidBackground">true</item>-->
+<!--        <item name="android:background">@drawable/edit_text_bg</item>-->
+<!--        <item name="stStrokeWidth">3dp</item>-->
+<!--        <item name="stStrokeColor">#8BC34A</item>-->
+<!--        <item name="stLength">LONG</item> LONG or SHORT-->
+<!--        <item name="stGravity">center</item> top or center-->
+<!--        <item name="stRadius">5dp</item>-->
+<!--    </style>-->
+
+
+
+
+
+</resources>
