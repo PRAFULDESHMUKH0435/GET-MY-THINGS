@@ -1,4 +1,4 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 
-import com.example.admin2.Models.newproShowAllModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.newproShowAllAdapter;
+import com.getmythings.admin2.Models.newproShowAllModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.newproShowAllAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;

@@ -1,4 +1,4 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -22,9 +22,9 @@ import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.interfaces.ItemClickListener;
 import com.denzcoskun.imageslider.models.SlideModel;
-import com.example.admin2.Models.MyCartModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.MyCartAdapter;
+import com.getmythings.admin2.Models.MyCartModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.MyCartAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

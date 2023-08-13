@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.praful">
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+
+
+
+
+
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.CAMERA" />
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+    <uses-permission android:name="android.permission.CAMERA"  />
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.WRITE_SMS" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
 
     <application
@@ -23,25 +34,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PRAFUL">
-        <activity android:name=".Activities.SelectShop"/>
-        <activity android:name=".Activities.ThanksActivity" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Activities.SelectShop"
+            android:exported="true" />
+        <activity android:name=".Activities.ThanksActivity" android:exported="true"/>
         <activity android:name=".Activities.Orderhistory"
-            android:parentActivityName=".Activities.MainActivity"/>
+            android:parentActivityName=".Activities.MainActivity" android:exported="true" />
         <activity android:name=".Activities.CashOnDelivery"
-            android:parentActivityName=".Activities.CartActivity"/>
-        <activity android:name=".Activities.ForgotPassword" />
-        <activity android:name=".Activities.NewProductsShowAll" />
-        <activity android:name=".Activities.CatShowAllActivity" />
-        <activity android:name=".Activities.AdressActivity" />
+            android:parentActivityName=".Activities.CartActivity" android:exported="true"/>
+        <activity android:name=".Activities.ForgotPassword" android:exported="true" />
+        <activity android:name=".Activities.NewProductsShowAll" android:exported="true"/>
+        <activity android:name=".Activities.CatShowAllActivity" android:exported="true"/>
+        <activity android:name=".Activities.AdressActivity" android:exported="true" />
         <activity android:name=".Activities.CartActivity"
-            android:parentActivityName=".Activities.MainActivity"/>
+            android:parentActivityName=".Activities.MainActivity" android:exported="true"/>
         <activity android:name=".Activities.ShowAllActivity"
-            android:parentActivityName=".Activities.MainActivity"/>
+            android:parentActivityName=".Activities.MainActivity" android:exported="true"/>
         <activity android:name=".Activities.DetailedActivity"
-            android:parentActivityName=".Activities.ShowAllActivity"/>
-        <activity android:name=".Activities.RegistrationActivity" />
+            android:parentActivityName=".Activities.ShowAllActivity" android:exported="true"/>
+        <activity android:name=".Activities.RegistrationActivity" android:exported="true" />
         <activity android:name=".Activities.loginActivity" />
-        <activity android:name=".Activities.Splash_Activity">
+        <activity android:name=".Activities.Splash_Activity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,9 +86,9 @@
         <activity
             android:name=".Activities.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PRAFUL.NoActionBar" />
+            android:theme="@style/Theme.PRAFUL.NoActionBar" android:exported="true" />
 
-        <service android:name=".Activities.MainActivity">
+        <service android:name=".Activities.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

@@ -1,4 +1,4 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +14,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.admin2.Models.MyCartModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.MyCartAdapter;
+import com.getmythings.admin2.Models.MyCartModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.MyCartAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

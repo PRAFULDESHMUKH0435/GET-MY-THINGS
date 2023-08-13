@@ -5,8 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRAFUL.iml" filepath="$PROJECT_DIR$/.idea/modules/PRAFUL.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/PRAFUL.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/PRAFUL.admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.iml" filepath="$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/admin2/PRAFUL.admin2.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adminapp/PRAFUL.adminapp.iml" filepath="$PROJECT_DIR$/.idea/modules/adminapp/PRAFUL.adminapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PRAFUL.app.unitTest.iml" />
     </modules>
   </component>
 </project>

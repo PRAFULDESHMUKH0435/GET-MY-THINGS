@@ -1,4 +1,4 @@
-package com.example.admin2.adapters;
+package com.getmythings.admin2.adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
-import com.example.admin2.Models.ShopModel;
-import com.example.admin2.R;
+import com.getmythings.admin2.Models.ShopModel;
+import com.getmythings.admin2.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

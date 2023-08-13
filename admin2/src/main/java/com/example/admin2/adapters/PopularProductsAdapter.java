@@ -1,4 +1,4 @@
-package com.example.admin2.adapters;
+package com.getmythings.admin2.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.admin2.Activities.DetailedActivity;
-import com.example.admin2.Models.PopularProductModel;
-import com.example.admin2.R;
+import com.getmythings.admin2.Activities.DetailedActivity;
+import com.getmythings.admin2.Models.PopularProductModel;
+import com.getmythings.admin2.R;
 
 
 import java.util.List;

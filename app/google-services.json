@@ -8,17 +8,46 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:482057329793:android:7994fbc118b1918f338180",
+        "mobilesdk_app_id": "1:482057329793:android:a88df6a274b44c26338180",
         "android_client_info": {
-          "package_name": "com.example.praful"
+          "package_name": "com.example.admin2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "482057329793-bntocqf76lfpibmsgikr4k1bve4rinjj.apps.googleusercontent.com",
+          "client_id": "482057329793-s51fojrsodf6m9g2jbpn2bqq5q9k1l4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeisXF0uULF9JZgsJ65v19gV3KGsdVMR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482057329793-s51fojrsodf6m9g2jbpn2bqq5q9k1l4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482057329793:android:7994fbc118b1918f338180",
+        "android_client_info": {
+          "package_name": "com.getmythings.praful"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482057329793-43bjta83slv438uro6n5s0vh1vq6l5b8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.praful",
+            "package_name": "com.getmythings.praful",
             "certificate_hash": "0537a7f24cb1140ec602a7988b2dfa72455a7b41"
           }
         },

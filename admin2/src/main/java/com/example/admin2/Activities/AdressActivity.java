@@ -1,4 +1,4 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,12 +15,12 @@ import android.view.View;
 import android.widget.Button;
 
 
-import com.example.admin2.Models.AddressModel;
-import com.example.admin2.Models.NewProductModel;
-import com.example.admin2.Models.PopularProductModel;
-import com.example.admin2.Models.ShowAllModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.AddressAdapter;
+import com.getmythings.admin2.Models.AddressModel;
+import com.getmythings.admin2.Models.NewProductModel;
+import com.getmythings.admin2.Models.PopularProductModel;
+import com.getmythings.admin2.Models.ShowAllModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.AddressAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 

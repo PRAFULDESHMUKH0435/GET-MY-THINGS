@@ -7,41 +7,41 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.admin2.ui.home.HomeFragment"
+        android:name="com.getmythings.admin2.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home"/>
 
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.admin2.ProfileFragment"
+        android:name="com.getmythings.admin2.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 
 
     <fragment
         android:id="@+id/nav_myOrders"
-        android:name="com.example.admin2.MyOrdersFragment"
+        android:name="com.getmythings.admin2.MyOrdersFragment"
         android:label="fragment_my_orders"
         tools:layout="@layout/fragment_my_orders" />
     <fragment
         android:id="@+id/nav_location"
-        android:name="com.example.admin2.DetectMyLocationFragment"
+        android:name="com.getmythings.admin2.DetectMyLocationFragment"
         android:label="fragment_detect_my_location"
         tools:layout="@layout/fragment_detect_my_location" />
 
     <fragment
         android:id="@+id/nav_connect_us"
-        android:name="com.example.admin2.ConnectUsOnSocialMediaFragment"
+        android:name="com.getmythings.admin2.ConnectUsOnSocialMediaFragment"
         android:label="fragment_connect_us_on_social_media"
         tools:layout="@layout/fragment_connect_us_on_social_media"/>
     <fragment
         android:id="@+id/nav_contact_us"
-        android:name="com.example.admin2.ContactUsFragment"
+        android:name="com.getmythings.admin2.ContactUsFragment"
         android:label="fragment_contact_us"
         tools:layout="@layout/fragment_contact_us"/>
     <activity
         android:id="@+id/orderhistory"
-        android:name="com.example.admin2.Activities.Orderhistory"
+        android:name="com.getmythings.admin2.Activities.Orderhistory"
         android:label="activity_order_history"
         tools:layout="@layout/activity_order_history" />
 

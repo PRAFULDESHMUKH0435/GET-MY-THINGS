@@ -1,4 +1,4 @@
-package com.example.admin2.ui.home;
+package com.getmythings.admin2.ui.home;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -26,14 +26,14 @@ import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.interfaces.ItemClickListener;
 import com.denzcoskun.imageslider.models.SlideModel;
-import com.example.admin2.Activities.ShowAllActivity;
-import com.example.admin2.Models.CategoryModel;
-import com.example.admin2.Models.NewProductModel;
-import com.example.admin2.Models.PopularProductModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.CategoryAdapter;
-import com.example.admin2.adapters.NewProductsAdapter;
-import com.example.admin2.adapters.PopularProductsAdapter;
+import com.getmythings.admin2.Activities.ShowAllActivity;
+import com.getmythings.admin2.Models.CategoryModel;
+import com.getmythings.admin2.Models.NewProductModel;
+import com.getmythings.admin2.Models.PopularProductModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.CategoryAdapter;
+import com.getmythings.admin2.adapters.NewProductsAdapter;
+import com.getmythings.admin2.adapters.PopularProductsAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

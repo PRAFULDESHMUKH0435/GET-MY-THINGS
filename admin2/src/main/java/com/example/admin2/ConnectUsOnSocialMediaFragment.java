@@ -1,4 +1,4 @@
-package com.example.admin2;
+package com.getmythings.admin2;
 
 import android.content.Intent;
 import android.net.Uri;

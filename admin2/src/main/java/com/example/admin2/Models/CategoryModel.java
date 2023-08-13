@@ -1,4 +1,4 @@
-package com.example.admin2.Models;
+package com.getmythings.admin2.Models;
 
 import java.io.Serializable;
 

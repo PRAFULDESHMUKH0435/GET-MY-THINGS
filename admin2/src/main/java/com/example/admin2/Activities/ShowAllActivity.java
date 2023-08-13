@@ -1,4 +1,4 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,11 +10,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 
-import com.example.admin2.Models.NewProductModel;
-import com.example.admin2.Models.ShowAllModel;
-import com.example.admin2.R;
-import com.example.admin2.adapters.NewProductsAdapter;
-import com.example.admin2.adapters.ShowAllAdapter;
+import com.getmythings.admin2.Models.NewProductModel;
+import com.getmythings.admin2.Models.ShowAllModel;
+import com.getmythings.admin2.R;
+import com.getmythings.admin2.adapters.NewProductsAdapter;
+import com.getmythings.admin2.adapters.ShowAllAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;

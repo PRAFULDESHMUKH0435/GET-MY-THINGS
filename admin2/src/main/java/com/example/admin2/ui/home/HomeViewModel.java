@@ -1,4 +1,4 @@
-package com.example.admin2.ui.home;
+package com.getmythings.admin2.ui.home;
 
 import android.widget.ImageView;
 

@@ -1,11 +1,11 @@
-package com.example.admin2.Activities;
+package com.getmythings.admin2.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.admin2.R;
+import com.getmythings.admin2.R;
 
 
 public class Splash_Activity extends AppCompatActivity {

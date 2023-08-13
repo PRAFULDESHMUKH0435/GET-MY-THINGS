@@ -5,25 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main_div"
     android:background="@drawable/empty"
     tools:context=".Activities.Orderhistory">
 
-<!--    <TextView-->
-<!--        android:id="@+id/orderhis_text_view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="My Order History"-->
-<!--        android:textSize="30sp"-->
-<!--        android:background="#E91E63"-->
-<!--        android:textStyle="bold"-->
-<!--        android:fontFamily="@font/amaranth"-->
-<!--        android:textColor="#fff"-->
-<!--        android:gravity="center"-->
-<!--        android:paddingTop="10dp"-->
-<!--        android:paddingBottom="10dp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/my_order_historyrec"
@@ -31,9 +16,9 @@
         android:layout_height="500dp"
         android:layout_marginTop="10dp"
         android:paddingStart="5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/parent"
+        app:layout_constraintEnd_toEndOf="@+id/main_div"
+        app:layout_constraintStart_toStartOf="@+id/main_div"
+        app:layout_constraintTop_toTopOf="@+id/main_div"
         tools:listitem="@layout/orderhistoryitems">
 
     </androidx.recyclerview.widget.RecyclerView>
@@ -48,9 +33,9 @@
         android:textColor="#000"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/main_div"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/main_div"
         app:layout_constraintTop_toBottomOf="@+id/my_order_historyrec" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.admin2.adapters;
+package com.getmythings.admin2.adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.admin2.Models.OrderHistoryModel;
-import com.example.admin2.R;
+import com.getmythings.admin2.Models.OrderHistoryModel;
+import com.getmythings.admin2.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 

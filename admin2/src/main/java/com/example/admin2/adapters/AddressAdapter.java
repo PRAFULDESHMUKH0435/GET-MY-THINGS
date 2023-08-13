@@ -1,4 +1,4 @@
-package com.example.admin2.adapters;
+package com.getmythings.admin2.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.admin2.Models.AddressModel;
-import com.example.admin2.R;
+import com.getmythings.admin2.Models.AddressModel;
+import com.getmythings.admin2.R;
 
 import java.util.List;
 

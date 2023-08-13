@@ -1,4 +1,4 @@
-package com.example.admin2.adapters;
+package com.getmythings.admin2.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.admin2.Models.MyCartModel;
-import com.example.admin2.R;
+import com.getmythings.admin2.Models.MyCartModel;
+import com.getmythings.admin2.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

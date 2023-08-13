@@ -1,4 +1,4 @@
-package com.example.admin2;
+package com.getmythings.admin2;
 
 import android.os.Bundle;
 
@@ -16,8 +16,8 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.admin2.Models.ShopModel;
-import com.example.admin2.adapters.ShopAdapter;
+import com.getmythings.admin2.Models.ShopModel;
+import com.getmythings.admin2.adapters.ShopAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;

@@ -19,5 +19,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="_9359407730">9359407730</string>
     <string name="customer_quote">--CUSTOMER SATISFACTION IS OUR UTMOST PRIORITY--</string>
+    <string name="bill">Total Bill: Rs.0</string>
+    <string name="buy_now">Buy-Now</string>
+    <string name="dont_remove">Please Don\'t Remove Cart Items , UnTill You Receive Your Order, DELIVERY WILL BE FREE ABOVE RS.700 ORDER VALUE</string>
 
 </resources>

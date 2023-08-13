@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/amethysta"
-                android:text="Hi my name is Praful Deshmukh and i am in st.vincent palloti college" />
+                android:text="Hi my name is Praful Deshmukh and i am Software Engineer" />
 
             <TextView
                 android:layout_width="wrap_content"
